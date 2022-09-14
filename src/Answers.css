@@ -13,26 +13,54 @@
   margin-top: 30px;
   border-radius: 5px;
   border-width: 0px;
-  background-color: rgba(217, 207, 242, 0.379);
+  background-color: rgb(170, 140, 247);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  text-align: center;
 }
 
-.Answers p {
-  font-family: fantasy;
-  font-size: 35px;
-  color: rgb(219, 193, 0);
-}
-
-.Answers button {
-  font-family: fantasy;
-  font-size: larger;
-  font-style: italic;
-  color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.271);
+.crystal-ball {
+  background-color: rgba(0, 0, 0, 0.372);
   border: 1px solid black;
   border-radius: 50%;
   width: 350px;
   height: 350px;
-  margin-top: 80px;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.content {
+  background: rgba(0, 0, 0, 0);
+  width: 70%;
+  height: 40%;
+  margin: 43% auto;
+}
+
+.answer {
+  margin: 0 auto;
+  letter-spacing: 1px;
+  font-family: fantasy;
+  color: rgb(237, 217, 1);
+  font-size: 25px;
+  font-weight: 500;
+}
+.error {
+  margin: 0 auto;
+  border-radius: 50%;
+  color: rgb(237, 217, 1);
+  letter-spacing: 1px;
+  font-family: fantasy;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.Answers button {
+  letter-spacing: 1px;
+  font-family: fantasy;
+  color: rgb(237, 217, 1);
+  font-size: 25px;
+  font-weight: 500;
+  background: none;
+  border: none;
 }
