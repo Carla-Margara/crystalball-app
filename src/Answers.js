@@ -48,21 +48,21 @@ function Answers() {
 
   const answer = possibleAnswers[randomIndex];
   return (
-    <div className="App">
+    <div className="Answers">
       <input
         type="text"
         className="question"
         value={userInput}
         onChange={handleChange}
       />
-      <div className="eight-ball">
+      <div className="crystal-ball">
         <div className="content" onClick={handleClick}>
           {error ? (
             <p className="error">{error}</p>
           ) : answer ? (
             <p className="answer">{answer}</p>
           ) : (
-            <button type="submit">get answer</button>
+            <button type="submit">Click the Magic Crystal Ball</button>
           )}
         </div>
       </div>
