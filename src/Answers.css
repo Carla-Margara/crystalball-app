@@ -47,7 +47,7 @@
   font-size: 24px;
   font-family: fantasy;
   font-weight: bold;
-  margin-top: 135px;
+  margin-top: 145px;
   margin-right: 0px;
 }
 .error {
@@ -56,7 +56,7 @@
   font-size: 24px;
   font-family: fantasy;
   font-weight: bold;
-  margin-top: 135px;
+  margin-top: 145px;
   margin-right: 0px;
 }
 
@@ -69,7 +69,7 @@
   border: none;
   object-fit: cover;
   border-radius: 50%;
-  margin-top: 135px;
+  margin-top: 145px;
   margin-right: 0px;
   display: flex;
 }
@@ -86,12 +86,4 @@ video {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
-}
-
-.overlay {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-  background-color: rgba(251, 251, 251, 0.3);
 }
