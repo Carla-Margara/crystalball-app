@@ -64,7 +64,7 @@ function Answers() {
           ) : answer ? (
             <p className="answer">{answer}</p>
           ) : (
-            <button type="submit">Click the Magic Crystal Ball</button>
+            <button type="submit">Click to let the Universe answer!</button>
           )}
         </div>
       </div>
