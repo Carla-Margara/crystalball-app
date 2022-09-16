@@ -1,5 +1,6 @@
 import "./App.css";
 import Answers from "./Answers";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
 
         <h3>Type to ask the Magic Crystal Ball a question!</h3>
         <Answers />
+        <Footer />
       </header>
       <footer className="App-footer">
         <span>
