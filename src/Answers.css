@@ -43,34 +43,34 @@
 }
 
 .answer {
-  color: rgb(255, 234, 0);
-  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
   font-family: fantasy;
   font-weight: bold;
-  margin-top: 120px;
-  margin-right: 15px;
+  margin-top: 135px;
+  margin-right: 0px;
 }
 .error {
   border-radius: 50%;
-  color: rgb(255, 234, 0);
-  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
   font-family: fantasy;
   font-weight: bold;
-  margin-top: 120px;
-  margin-right: 15px;
+  margin-top: 135px;
+  margin-right: 0px;
 }
 
 .Answers button {
-  color: rgb(255, 234, 0);
-  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
   font-family: fantasy;
   font-weight: bold;
   background: none;
   border: none;
   object-fit: cover;
   border-radius: 50%;
-  margin-top: 120px;
-  margin-right: 15px;
+  margin-top: 135px;
+  margin-right: 0px;
   display: flex;
 }
 
