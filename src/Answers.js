@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Answers.css";
+import Main from "./Main";
 
 function Answers() {
   const [userInput, setUserInput] = useState("");
@@ -56,6 +57,7 @@ function Answers() {
         onChange={handleChange}
       />
       <div className="crystal-ball">
+        <Main />
         <div className="content" onClick={handleClick}>
           {error ? (
             <p className="error">{error}</p>
