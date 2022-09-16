@@ -74,6 +74,11 @@
   display: flex;
 }
 
+button:hover {
+  color: rgb(0, 182, 237);
+  transition: all 200ms ease-in-out;
+}
+
 .main {
   width: 350px;
   height: 350px;

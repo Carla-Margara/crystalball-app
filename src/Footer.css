@@ -4,3 +4,11 @@
   font-size: 16px;
   margin-bottom: 30px;
 }
+
+a {
+  color: rgb(34, 3, 63);
+}
+a:hover {
+  color: rgb(136, 213, 236);
+  transition: all 200ms ease-in-out;
+}
